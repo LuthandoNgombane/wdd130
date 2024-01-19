@@ -16,7 +16,7 @@ h1 {
 main img {
     width : 150px; 
     height:auto; 
-    border:1px sold steelblue;
+    border:1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30 px gray;
 }
@@ -32,7 +32,7 @@ main {
 aside {
     width: 20rem;
     margin:1rem;
-    border:1 px solid rgba(0, 0, 0, 2);
+    border:1px solid rgba(0, 0, 0, 2);
     padding:1rem;
     background-color: #eee;
     color: #333;
