@@ -1,0 +1,61 @@
+/*Google fonts imports*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:wght@400;700&display=swap');
+
+/*Setting default colors to be accesed with var() method*/
+:root{
+    --primary-color: #f0f4ef;
+    --secondary-color: #b4cded;
+    --accent1-color: #344966;
+    --accent2-color: #0d1821;
+    --heading-font: 'Open Sans', serif;
+    --paragraph-font: 'Roboto', serif;
+    --nav-background-color:var(--accent2-color);
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--primary-color);
+    --nav-hover-backround-color: var(--accent1-color);
+}
+
+/*Individual styling*/
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color); 
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color:var(--nav-hover-backround-color);
+}
