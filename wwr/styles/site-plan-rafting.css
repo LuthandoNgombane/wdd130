@@ -9,18 +9,17 @@
     --accent2-color: #0d1821;
     --heading-font: 'Open Sans', serif;
     --paragraph-font: 'Roboto', serif;
-    --nav-background-color:var(--accent2-color);
-    --nav-link-color: var(--secondary-color);
-    --nav-hover-link-color: var(--primary-color);
-    --nav-hover-backround-color: var(--accent1-color);
+    --nav-background-color:#0d1821;
+    --nav-link-color:#b4cded ;
+    --nav-hover-link-color:  #f0f4ef;
+    --nav-hover-backround-color:#0d1821 ;
 }
 
 /*Individual styling*/
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding: 20px;
-    
+    padding: 20px;   
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -48,7 +47,6 @@ nav a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-
 }
 
 nav a:link, nav a:visited {
