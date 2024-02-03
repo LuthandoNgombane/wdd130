@@ -71,12 +71,14 @@ nav a:hover {
 
 h1 {
     position:absolute;
+    top:60%;
+    left:40%;
 }
 
 article {
     position:absolute;
-}
+} 
 
-article > img {
-    t: right;
+article img {
+    float: right;
 }
