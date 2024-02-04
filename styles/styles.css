@@ -7,6 +7,8 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav a {
