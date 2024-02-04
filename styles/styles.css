@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-header {
-    max-width: 840px;
+
+header, footer, .grid {
     margin: 0 auto;
+    max-width: 840px;
 }
 
 nav {
