@@ -34,10 +34,9 @@ h1,h2,h3,h4,h5,h6{
 header{
     padding: 20px;
     background-color: var(--accent1-color); 
-}
-
-p{
-    padding: 25px;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;align-items: center;
+ 
 }
 
 nav{
@@ -45,6 +44,11 @@ nav{
     font-size: 1.2rem;
     display: flex;
     justify-content: space-around;
+
+}
+
+p{
+    padding: 25px;
 }
 
 nav a {
@@ -72,7 +76,7 @@ nav a:hover {
 
 h1 {
     position:absolute;
-    top:60%;
+    top:50%;
     left:20%;
     color: darkorange;
     font-size:1000%;
@@ -82,8 +86,8 @@ h1 {
 article {
     position:absolute;
     width: 50%;
-    top:7%;
-    left:47%;
+    top:130%;
+    left:20%;
 } 
 
 article img {
