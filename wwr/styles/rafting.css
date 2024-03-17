@@ -82,17 +82,3 @@ h1 {
     font-size:1000%;
 
 }
-
-article {
-    position:absolute;
-    width: 50%;
-    top:130%;
-    left:20%;
-} 
-
-article img {
-    float: right;
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-}
