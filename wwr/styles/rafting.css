@@ -34,9 +34,8 @@ h1,h2,h3,h4,h5,h6{
 header{
     padding: 20px;
     background-color: var(--accent1-color); 
-    display: grid;
-    grid-template-columns: 120px 1fr 2fr;align-items: center;
- 
+    display: flex;
+    justify-content: space-between;
 }
 
 nav{
@@ -44,7 +43,9 @@ nav{
     font-size: 1.2rem;
     display: flex;
     justify-content: space-around;
-
+    height:50%;
+    margin-top:5%;
+    margin-right: 3%;
 }
 
 p{
