@@ -76,10 +76,7 @@ nav a:hover {
 }
 
 h1 {
-    position:relative;
-    top:50%;
-    left:20%;
+    display: flex;
     color: darkorange;
     font-size:80%;
-
 }
