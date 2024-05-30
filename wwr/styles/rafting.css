@@ -76,7 +76,7 @@ nav a:hover {
 }
 
 h1 {
-    position:fixed;
+    position:absolute;
     top:50%;
     left:20%;
     color: darkorange;
