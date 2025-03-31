@@ -1,0 +1,98 @@
+:root {
+    --primary-color: #2A5C5A;
+    --secondary-color: #4B8F8C;
+    --accent1-color: #F4A261;
+    --accent2-color: #E9C46A;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 150px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.hero {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 50%;
+}
+
+.history, .adventures {
+    margin-bottom: 40px;
+}
+
+.adventures img {
+    width: 150px;
+    margin: 10px;
+    border: 3px solid var(--accent1-color);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid var(--secondary-color);
+}
+
+.sociallinks a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.sociallinks img {
+    width: 30px;
+    height: 30px;
+}
