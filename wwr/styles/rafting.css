@@ -148,3 +148,97 @@ footer p {
     width: 30px;
     height: 30px;
 }
+
+
+.contact-info {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid var(--accent2-color);
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+.employee-profiles {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.employee-profiles h2 {
+    margin-bottom: 20px;
+}
+
+.employee-profiles figure {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.employee-profiles img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--accent1-color);
+}
+
+
+.contact-form {
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 40px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form input[type="checkbox"],
+.contact-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}
